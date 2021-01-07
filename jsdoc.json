@@ -1,0 +1,22 @@
+{
+    "home":"wxapi",
+    "plugins": [],
+    "recurseDepth": 10,
+    "source": {
+        "include": "./public/static/javascript/wx.js",
+        "exclude": "(^|\\/|\\\\)_"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "applicationName":"api",
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts":{
+        "destination": "./public/out/"
+    }
+}

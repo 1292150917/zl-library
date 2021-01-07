@@ -1,0 +1,118 @@
+.log html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+.log body{
+color:#444;
+font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+font-size:12px;
+line-height:1.5em;
+padding:1em;
+margin:auto;
+max-width:42em;
+background:#fefefe;
+}
+
+.log a{ color: #0645ad; text-decoration:none;}
+.log a:visited{ color: #0b0080; }
+.log a:hover{ color: #06e; }
+.log a:active{ color:#faa700; }
+.log a:focus{ outline: thin dotted; }
+.log a:hover, a:active{ outline: 0; }
+
+.log ::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+.log ::selection{background:rgba(255,255,0,0.3);color:#000}
+
+.log a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+.log a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+
+.log p{
+margin:1em 0;
+}
+
+.log img{
+max-width:100%;
+}
+
+.log h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+color:#111;
+line-height:1em;
+}
+.log h4,h5,h6{ font-weight: bold; }
+.log h1{ font-size:2.5em; }
+.log h2{ font-size:2em; }
+.log h3{ font-size:1.5em; }
+.log h4{ font-size:1.2em; }
+.log h5{ font-size:1em; }
+.log h6{ font-size:0.9em; }
+
+.log blockquote{
+color:#666666;
+margin:0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+.log hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+.log pre,.log  code,.log  kbd, .log samp { color: #000; font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 0.98em; }
+.log pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+.log b,.log  strong { font-weight: bold; }
+
+.log dfn { font-style: italic; }
+
+.log ins { background: #ff9; color: #000; text-decoration: none; }
+
+.log mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+.log sub,.log  sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+.log sup { top: -0.5em; }
+.log sub { bottom: -0.25em; }
+
+.log ul,.log  ol { margin: 1em 0; padding: 0 0 0 2em; }
+.log li p:last-child { margin:0 }
+.log dd { margin: 0 0 0 2em; }
+
+.log img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+.log table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+}
+.log th { border-bottom: 1px solid black; }
+.log td { vertical-align: top; }
+.log pre{
+    background: #f1f4f8;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: 26px;
+    padding-left: 15px;
+}
+.log .hljs-name{
+    color: #ae81ff;
+}
+.log .hljs-tag{
+    color: #333;
+}
+.log code{
+    background: #f1f4f8;
+}
+.log .hljs-variable,.log .hljs-params,.log .hljs-class .hljs-title{
+    color: #1631f1;
+}
+.log tr{
+    line-height: 50px;
+}
+.log tr td{
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    text-indent: 10px;
+}
+.log h3{
+    font-weight: 800;
+}
+.hljs-string, .css .hljs-id, .hljs-subst, .haskell .hljs-type, .ruby .hljs-class .hljs-parent, .hljs-built_in, .sql .hljs-aggregate, .django .hljs-template_tag, .django .hljs-variable, .smalltalk .hljs-class, .django .hljs-filter .hljs-argument, .smalltalk .hljs-localvars, .smalltalk .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-addition, .hljs-stream, .hljs-envvar, .apache .hljs-tag, .apache .hljs-cbracket, .tex .hljs-command, .hljs-prompt, .hljs-link_label, .hljs-link_url{
+    color: #4363ff;
+}
+.hljs-tag .hljs-value, .hljs-code, .hljs-title, .css .hljs-class, .hljs-class .hljs-title:last-child{
+    color: #fb0909;
+}
